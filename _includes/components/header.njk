@@ -1,8 +1,8 @@
 <header>
     <a href="/">
-       <img src="static/img/logo.svg" />
+        {{ "/static/svg/logo.svg" | svgContents | safe }}
     </a>
     <div class="menu-icon">
-        <img src="static/img/hamburger.svg" />
+        {{ "/static/svg/hamburger.svg" | svgContents | safe }}
     </div>
 </header>

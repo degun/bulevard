@@ -3,11 +3,15 @@ const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const svgContents = require("eleventy-plugin-svg-contents");
 
 module.exports = function(eleventyConfig) {
 
   // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
+  // raw svg
+  eleventyConfig.addPlugin(svgContents);
 
   // Configuration API: use eleventyConfig.addLayoutAlias(from, to) to add
   // layout aliases! Say you have a bunch of existing content using
@@ -37,6 +41,8 @@ module.exports = function(eleventyConfig) {
     }, {});
   });
 
+
+  
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");
