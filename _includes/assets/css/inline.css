@@ -55,12 +55,12 @@ table {
 
 @font-face {
     font-family: "Blv";
-    src: url("_includes/assets/fonts/Blv-Regular-2.ttf");
+    src: url("../_includes/assets/fonts/Blv-Regular-2.ttf");
 }
 
 @font-face {
     font-family: "BlvThin";
-    src: url("_includes/assets/fonts/BlvThin-Regular-2.ttf");
+    src: url("../_includes/assets/fonts/BlvThin-Regular-2.ttf");
 }
 
 body{
@@ -103,6 +103,10 @@ header a svg *, header .menu-icon svg *{
     transition: 0.4s stroke ease;
 }
 
+header.active{
+    position: fixed;
+}
+
 header.active a svg *{
     fill: var(--light-gray);
 }
@@ -121,15 +125,15 @@ header .menu-icon:hover{
     width: 100%;
     height: 100%;
     top: 0;
-    right: -100%;
+    right: 0;
     background-color: var(--light-gray);
     padding: 200px 40px 0;
     transition: 0.1s background-color ease;
-    z-index: 2;
+    z-index: -1;
 }
 
 .main-nav.active{
-   right: 0;
+   z-index: 2;
    background-color: var(--dark-gray);
 }
 
@@ -140,6 +144,7 @@ header .menu-icon:hover{
 .main-nav nav li{
     width: 95%;
     border-bottom: 1px solid var(--light-gray);
+    padding-top: 20px;
 }
 
 .main-nav nav li a{
@@ -151,8 +156,34 @@ header .menu-icon:hover{
     text-decoration: none;
 }
 
-main {
-    padding: 0 40px;
+.main-nav .social{
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.main-nav .social .contact{
+   display: block;
+   width: 100%;
+   color: var(--light-gray);
+   font-family: Blv, sans-serif;
+   font-size: 5rem;
+   text-transform: uppercase;
+}
+
+.main-nav .social .icons a{
+    margin-right: 10px;
+}
+
+.main-nav .social .icons a svg{
+    height: 40px;
+}
+
+main.home {
+    box-sizing: border-box;
+    padding: 0 17.5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -160,9 +191,10 @@ main {
     height: calc(100vh - 140px);
     position: relative;
     gap: 20px;
+    overflow-y: hidden;
 }
 
-main img {
+main.home img {
     height: auto;
     width: 80%;
     position: absolute;
@@ -170,9 +202,210 @@ main img {
     transform: rotate(180deg);
 }
 
-main p {
+main.home h1 {
     font-family: Blv, sans-serif;
     font-size: 4rem;
     color: var(--dark-gray);
-    width: 65vw;
+    max-width: 100%;
+}
+
+main.center {
+    padding: 60px 0;
+    margin: 0 auto;
+    width: 720px;
+}
+
+main.center img{
+   width: 100%;
+}
+
+main.center h1{
+    font-family: Blv, sans-serif;
+    font-size: 3rem;
+    color: var(--dark-gray);
+    margin-top: 40px;
+    text-transform: uppercase;
+    line-height: 0.6;
+}
+
+main.about h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+main.center h2{
+    font-family: Blv ,sans-serif;
+    font-size: 3rem;
+}
+
+main.center p{
+    font-family: sans-serif;
+    color: var(--dark-gray);
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+main.about h2{
+    font-family: Blv, sans-serif;
+    color: var(--dark-gray);
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--dark-gray);
+    width: max-content;
+    margin-bottom: 20px;
+}
+
+main.about h3{
+    font-family: Blv, sans-serif;
+    color: var(--dark-gray);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+main.about h3:nth-last-of-type(2){
+    font-size: 3rem;
+}
+
+main.about h3:nth-last-of-type(3){
+    text-transform: none;
+}
+
+main.whats-on h2{
+    font-size: 0.9rem;
+    color: var(--dark-gray);
+    font-family: sans-serif;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+main.whats-on p.centered{
+    text-align: center;
+}
+
+main.whats-on p.important{
+    font-size: 2rem;
+}
+
+main.location{
+    padding-top: 0;
+}
+
+main.location h1{
+   text-align: center;
+   margin-bottom: 40px;
+   text-transform: uppercase;
+}
+
+main.location iframe{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+main.location > a{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   text-align: center;
+   text-decoration: none;
+   font-size: 1.5rem;
+   font-weight: bold;
+   color: var(--dark-gray);
+   font-family: sans-serif;
+   margin-bottom: 40px;
+}
+
+main.location > a svg{
+    height: 1.5rem;
+    margin-right: 10px;
+ }
+
+main.location > a svg *{
+    fill: var(--dark-gray);
+}
+
+@media screen and (max-width: 960px) {
+    main.home h1 {
+        font-size: 4rem;
+        width: 100%;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .with-bg{
+        background-image: url('static/img/PLAN BLV ROTATED.png');
+    }
+
+    main.home {
+        padding: 0 40px;
+    }
+
+    main.home h1 {
+        font-size: 2.8rem;
+    }
+
+    main.center{
+        width: calc(100% - 80px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main.location iframe{
+       height: 300px;
+    }
+    header a svg{
+        height: 30px;
+    }
+    .main-nav{
+        padding-top: 120px;
+    }
+    .main-nav nav li a{
+        font-size: 2.5rem;
+    }
+    main.home h1 {
+        font-size: 2.5rem;
+    }
+    main.center{
+        padding-top: 0;
+    }
+    main.whats-on h1{
+        font-size: 2.5rem;
+    }
+    main.location h1:first{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    main.home h1 {
+        font-size: 2.5rem;
+        line-height: 0.9;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    header{
+        padding: 15px;
+    }
+    main.center{
+        width: calc(100% - 30px);
+    }
+    main.home h1 {
+        font-size: 2.1rem;
+    }
+}
+
+
+@media screen and (max-height: 800px) and (min-width: 800px) {
+    main.home{
+        width: calc(100% - 80px);
+        overflow: hidden;
+    }
+    main.home h1 {
+        font-size: 3.5rem;
+        width: 100%;
+        line-height: 1;
+    }
 }

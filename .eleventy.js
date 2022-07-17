@@ -4,6 +4,7 @@ const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const svgContents = require("eleventy-plugin-svg-contents");
+const embeds = require("eleventy-plugin-embed-everything");
 
 module.exports = function(eleventyConfig) {
 
@@ -12,6 +13,9 @@ module.exports = function(eleventyConfig) {
 
   // raw svg
   eleventyConfig.addPlugin(svgContents);
+
+  // embed any video
+  eleventyConfig.addPlugin(embeds);
 
   // Configuration API: use eleventyConfig.addLayoutAlias(from, to) to add
   // layout aliases! Say you have a bunch of existing content using

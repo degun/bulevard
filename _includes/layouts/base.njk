@@ -7,7 +7,7 @@
 		{% include "components/header.njk" %}
         {% include "components/nav.njk" %}
 
-		<main>
+		<main class="{{ section }} {{ subsection }}">
 			{{ layoutContent | safe }}
 		</main>
 

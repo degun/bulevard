@@ -2,13 +2,22 @@
     <nav>
     {% set navPages = collections.all | eleventyNavigation %}
     <ul>
-    {%- for entry in navPages %}
-        {% if item.url !== '/' %}
-            <li>
-                <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
-            </li>
-        {% endif %}
-    {%- endfor %}
+        <li>
+            <a href="/about">About</a>
+        </li>
+        <li>
+            <a href="/whats-on">What's on?</a>
+        </li>
+        <li>
+            <a href="/location">Location</a>
+        </li>
     </ul>
     </nav>
+    <div class="social">
+        <div class="contact">Contact</div>
+        <div class="icons">
+            <a href="https://www.instagram.com/bulevard_art_media_institute/">{{ "/static/svg/instagram.svg" | svgContents | safe }}</a>
+            <a href="https://www.facebook.com/bulevardartandmedia">{{ "/static/svg/facebook.svg" | svgContents | safe }}</a>
+        </div>
+    </div>
 </div>

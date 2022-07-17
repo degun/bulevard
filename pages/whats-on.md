@@ -1,11 +1,72 @@
 ---
-layout: layouts/blog.njk
+layout: layouts/center.njk
 title: What's on
 metaDescription: What's on Bulevard
 date: 2017-01-01
 permalink: /whats-on/index.html
-eleventyNavigation:
-  key: WhatsOn
-  order: 2
+image: ../static/img/lindart.png
+subsection: whats-on
 ---
-Diaries
+
+# Diaries <br/> 01. Exhibition
+## 23rd June - 21st September 2022
+
+Combining a personal and intimate approach with an overview of dominant historical narratives, the word diary becomes plural to delve into the opaque archive of the independent artistic production from the 1990s in Albania. Shared with the public through exhibitions, programming, publications and convivial moments, the working process is intended as an open-ended editorial inquiry.
+ 
+The first ‘entry’ of the Diaries explores the history of the Linda Association - the first and only Women’s Artist Association in Albania after the end of the Communist Regime in 1991. Conceived in 1993 and founded in 1994 by 14 women artists working within the art scene at the time, Linda responded to the need for creating new learning opportunities in a context in which old patriarchal traditions continued to shape the development of culture and visual art. The collective opened the Lindart Cultural Center in 2000, and between 2001 and 2010 they developed a program that produced exhibitions, workshops and events. The group also decentralized these events from the capital city of Tirana, expanding participation in the association to other cities in the country. Despite the historical and international significance of Lindart’s program, their work and their struggle as artists and as women is barely known. The Diaries began with the exploration of Lindart’s archive, held by Eleni Laperi, a founding member of the association and later the director of the center. 
+ 
+Sewing together the possible stories emerging from the unexplored archive of Linda and Lindart reveals the interconnection of geographies, histories, politics, and economies that influenced storytelling and selfhood throughout the 90s - a decade that has not yet been problematized through careful documentation. Grounded in Albania, situated in the Western Balkans - with its paradoxical circulation of narratives in relation to Europe in particular - this investigation unfolds a set of related questions that emerge from a contemporary discourse, 
+such as: 
+how can we challenge the laws imposed by the patriarchal narratives of the past twenty years, which  are interwoven with our daily lives and work? What is the role of economy in the way we approach and transmit storytelling? How can we navigate the art history of recent decades by holding up the multiple, sometimes contradictory, narratives that can reveal numerous truths and multiple personal experiences? How and when do we start to open up and share the politics of the archive? How do we make what we are doing sustainable and shared?
+
+The Diaries attempts to work through these questions by proposing a methodology of the sensible. This is not a way to be upheld solely by artists, but rather a politics of doing that embraces a collective care for all the notes, sketches, photo albums, and secrets that are gathered, for all that is unnamed and untold, and which should remain as such.
+
+Entering through the literary references of a shared library in construction, you will find a timeline holding local and international happenings that slowly materializes in the calendar. The fabric of the archive and its storytelling emerges in the texture of a photo album in the making. In a corner, you can stay for a while with the projection of the encounters that all these elements have illuminated, around a table where the narration of the self takes place both through and with the other.
+
+
+<p class="centered">The Names of the Founding Members of Linda Association in 1993<br/>
+And the legalization of the association in 1994 in alphabetical order:</p>
+ 
+<p class="centered">Anila Zajmi born Tirana 1958<br/>
+Djana Miziri born Durres 1951<br/>
+Drita Saliu born in Burrel 1952<br/>
+Eleni Laperi born Tirana 1949<br/>
+Fabiola Jozja  born Tirana 1973<br/>
+Flutura Preka born Shkodra 1970<br/>
+Ikbal Beli born Tirana 1950<br/>
+Ikbal Kalaja born Shkodra 1959<br/>
+Keti Jazexhiu born Tirana 1950<br/>
+Lindita Çapunji born Tirana 1964<br/>
+Lumturi Blloshmi born Tirana 1944 <br/>
+Marjana Eski born Tirana 1951<br/>
+Mimoza Arapi ?<br/>
+Najada Hamza born Tirana 1966<br/>
+Raimonda Mato born Librazhd 1957<br/>
+Rikarda Nenshati born in Shkodra 1965<br/>
+Silvana Nini born Tirana 1969<br/>
+Suzana Varvarica Kuka born Tirana 1955<br/>
+Xheneta Kadillari born Shkodra 1959<br/>
+Zanfira Heta born Tirana 1963</p>
+
+<br />
+<br />
+<br />
+
+
+<p class="centered">an editorial project by<br/>
+a storyteller</p>
+<p class="centered important">VALENTINA BONIZZI</p>
+
+
+<p class="centered">accompanied by<br />
+an art historian 
+Raino Isto </p>
+
+<p class="centered">produced by<br/>
+Bulevard Art and Media Institute <p>
+
+<p class="centered">with the participation of<br/>
+The Institute of Cultural Anthropology and Art Studies </p>
+
+<p class="centered">supported by<br/>
+Heinrich Böll Stiftung Tirana</p>
