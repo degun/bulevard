@@ -7,7 +7,7 @@ const Page = createClass({
     const entry = this.props.entry;
 
     return html`
-      <main class="center about">
+      <main class="home center about whats-on">
         <h1>${entry.getIn(["data", "title"], null)}</h1>
 
         ${this.props.widgetFor("body")}
