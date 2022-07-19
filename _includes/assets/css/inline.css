@@ -350,6 +350,10 @@ main.location > a svg *{
     main.center{
         width: calc(100% - 80px);
     }
+
+    main.location video {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {

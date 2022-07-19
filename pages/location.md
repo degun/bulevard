@@ -6,4 +6,6 @@ date: 2022-07-17
 permalink: /location/index.html
 subsection: location
 ---
-https://vimeo.com/274556831
+<video controls width="720">
+    <source src="/static/video/bulevard-location.mp4" type="video/mp4">
+</video>
