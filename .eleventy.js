@@ -5,6 +5,8 @@ const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const svgContents = require("eleventy-plugin-svg-contents");
 const embeds = require("eleventy-plugin-embed-everything");
+const i18n = require('eleventy-plugin-i18n');
+const translations = require('./_data/i18n');
 
 module.exports = function(eleventyConfig) {
 
@@ -16,6 +18,16 @@ module.exports = function(eleventyConfig) {
 
   // embed any video
   eleventyConfig.addPlugin(embeds);
+
+
+  //  i18n
+  eleventyConfig.addPlugin(i18n, {
+    translations,
+    fallbackLocales: {
+      'sq-AL': 'en-GB',
+      '': 'en-GB'
+    }
+  });
 
   // Configuration API: use eleventyConfig.addLayoutAlias(from, to) to add
   // layout aliases! Say you have a bunch of existing content using
@@ -92,6 +104,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("_includes/assets/css");
   eleventyConfig.addPassthroughCopy("_includes/assets/fonts");
+  eleventyConfig.addPassthroughCopy("_redirects");
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");

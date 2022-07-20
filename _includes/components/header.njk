@@ -1,8 +1,14 @@
 <header>
-    <a href="/">
+    <a href="/{{locale}}/">
         {{ "/static/svg/logo.svg" | svgContents | safe }}
     </a>
-    <div class="menu-icon">
-        {{ "/static/svg/hamburger.svg" | svgContents | safe }}
+    <div class="right">
+        <div class="lang">
+            <a {% if locale === "en" %} class="current"{% endif %} href="/en/{{subsection}}/">EN</a>
+            <a {% if locale === "sq" %} class="current"{% endif %} href="/sq/{{subsection}}/">SQ</a>
+        </div>
+        <div class="menu-icon">
+            {{ "/static/svg/hamburger.svg" | svgContents | safe }}
+        </div>
     </div>
 </header>
