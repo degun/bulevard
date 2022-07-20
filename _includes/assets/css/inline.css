@@ -368,7 +368,7 @@ main.location > a svg *{
 
 @media screen and (max-width: 800px) {
     .with-bg{
-        background-image: url('static/img/PLAN BLV ROTATED.png');
+        background-image: url('../static/img/PLAN BLV ROTATED.png');
     }
 
     main.home {
