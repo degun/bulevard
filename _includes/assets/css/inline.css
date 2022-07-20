@@ -240,6 +240,7 @@ main.home h1 {
     font-size: 4rem;
     color: var(--dark-gray);
     max-width: 100%;
+    text-transform: uppercase;
 }
 
 main.center {

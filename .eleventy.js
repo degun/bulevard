@@ -19,15 +19,8 @@ module.exports = function(eleventyConfig) {
   // embed any video
   eleventyConfig.addPlugin(embeds);
 
-
-  //  i18n
-  eleventyConfig.addPlugin(i18n, {
-    translations,
-    fallbackLocales: {
-      'sq-AL': 'en-GB',
-      '': 'en-GB'
-    }
-  });
+  // i18n
+  eleventyConfig.addPlugin(i18n, { translations });
 
   // Configuration API: use eleventyConfig.addLayoutAlias(from, to) to add
   // layout aliases! Say you have a bunch of existing content using
