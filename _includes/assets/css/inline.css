@@ -302,6 +302,7 @@ main.about h2{
     color: var(--dark-gray);
     text-transform: uppercase;
     border-bottom: 1px solid var(--dark-gray);
+    border-radius: 0px 15px 225px 15px/15px 225px 15px 0px;
     width: max-content;
     margin-bottom: 20px;
 }
