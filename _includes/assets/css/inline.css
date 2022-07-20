@@ -135,9 +135,13 @@ header.active .lang a{
 }
 
 header .lang a.current{
-    text-decoration: underline;
+    border-bottom: 3px solid var(--dark-gray);
+    border-radius: 0px 15px 225px 15px/15px 225px 15px 0px;
 }
 
+header.active .lang a.current{
+    border-color: var(--light-gray);
+}
 
 header.active .menu-icon svg *{
     stroke: var(--light-gray);
@@ -176,8 +180,20 @@ header .menu-icon:hover{
 
 .main-nav nav li{
     width: calc(100% - 80px);
-    border-bottom: 1px solid var(--light-gray);
+    border-bottom: 3px solid var(--light-gray);
     padding-top: 20px;
+}
+
+.main-nav nav li:nth-child(1){
+    border-radius: 0px 15px 225px 15px/15px 225px 15px 0px;
+}
+
+.main-nav nav li:nth-child(2){
+    border-radius: 3px 100px 225px 100px/100px 100px 15px 3px;
+}
+
+.main-nav nav li:nth-child(3){
+    border-radius: 0px 30px 225px 30px/30px 225px 30px 0px;
 }
 
 .main-nav nav li a{
