@@ -119,6 +119,7 @@ header .right .lang{
 
 header .lang a{
     font-family: Blv, sans-serif;
+    font-display: swap;
     text-decoration: none;
     margin-right: 10px;
     color: var(--dark-gray);
@@ -195,6 +196,7 @@ header .menu-icon:hover{
     width: 100%;
     color: var(--light-gray);
     font-family: Blv, sans-serif;
+    font-display: swap;
     font-size: 5rem;
     text-transform: uppercase;
     text-decoration: none;
@@ -213,6 +215,7 @@ header .menu-icon:hover{
    width: 100%;
    color: var(--light-gray);
    font-family: Blv, sans-serif;
+   font-display: swap;
    font-size: 5rem;
    text-transform: uppercase;
 }
@@ -248,6 +251,7 @@ main.home img {
 
 main.home h1 {
     font-family: Blv, sans-serif;
+    font-display: swap;
     font-size: 4rem;
     color: var(--dark-gray);
     max-width: 100%;
@@ -266,6 +270,7 @@ main.center img{
 
 main.center h1{
     font-family: Blv, sans-serif;
+    font-display: swap;
     font-size: 3rem;
     color: var(--dark-gray);
     margin-top: 40px;
@@ -294,6 +299,7 @@ main.center p{
 
 main.about h2{
     font-family: Blv, sans-serif;
+    font-display: swap;
     color: var(--dark-gray);
     text-transform: uppercase;
     width: 100%;
@@ -307,6 +313,7 @@ main.about p.centered{
 
 main.about h3{
     font-family: Blv, sans-serif;
+    font-display: swap;
     color: var(--dark-gray);
     text-transform: uppercase;
     font-size: 2.5rem;
