@@ -301,10 +301,13 @@ main.about h2{
     font-family: Blv, sans-serif;
     color: var(--dark-gray);
     text-transform: uppercase;
-    border-bottom: 1px solid var(--dark-gray);
-    border-radius: 0px 15px 225px 15px/15px 225px 15px 0px;
-    width: max-content;
+    width: 100%;
     margin-bottom: 20px;
+    text-align: center;
+}
+
+main.about p.centered{
+    text-align: center;
 }
 
 main.about h3{
@@ -312,14 +315,17 @@ main.about h3{
     color: var(--dark-gray);
     text-transform: uppercase;
     font-size: 2.5rem;
+    text-align: center;
 }
 
 main.about h3:nth-last-of-type(2){
     font-size: 3rem;
+    text-align: center;
 }
 
 main.about h3:nth-last-of-type(3){
     text-transform: none;
+    text-align: center;
 }
 
 main.whats-on h2{
@@ -350,7 +356,7 @@ main.location h1{
 
 main.location iframe{
     width: 100%;
-    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 main.location > a{
