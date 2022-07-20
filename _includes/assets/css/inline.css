@@ -185,15 +185,15 @@ header .menu-icon:hover{
 }
 
 .main-nav nav li:nth-child(1){
-    border-radius: 0px 15px 225px 15px/15px 225px 15px 0px;
+    border-radius: 0px 15px 225px 15px/15px 0px 15px 0px;
 }
 
 .main-nav nav li:nth-child(2){
-    border-radius: 3px 100px 225px 100px/100px 100px 15px 3px;
+    border-radius: 0px 100px 225px 100px/100px 0px 15px 3px;
 }
 
 .main-nav nav li:nth-child(3){
-    border-radius: 0px 30px 225px 30px/30px 225px 30px 0px;
+    border-radius: 0px 30px 225px 30px/30px 0px 30px 0px;
 }
 
 .main-nav nav li a{
