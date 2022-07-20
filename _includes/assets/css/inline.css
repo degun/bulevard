@@ -59,11 +59,6 @@ table {
     src: url("../../_includes/assets/fonts/Blv-Regular-2.ttf");
 }
 
-@font-face {
-    font-family: "BlvThin";
-    src: url("../../_includes/assets/fonts/BlvThin-Regular-2.ttf");
-}
-
 body{
     background-color: var(--light-gray);
 }
