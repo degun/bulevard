@@ -1,0 +1,23 @@
+<div class="main-nav with-bg">
+    <nav>
+    {% set navPages = collections.all | eleventyNavigation %}
+    <ul>
+        <li>
+            <a href="/{{locale}}/about">{{'about' | i18n}}</a>
+        </li>
+        <li>
+            <a href="/{{locale}}/whats-on">{{'whatson' | i18n}}</a>
+        </li>
+        <li>
+            <a href="/{{locale}}/location">{{'location' | i18n}}</a>
+        </li>
+    </ul>
+    </nav>
+    <div class="social">
+        <div class="contact">{{'kontakt' | i18n}}</div>
+        <div class="icons">
+            <a href="https://www.instagram.com/bulevard_art_media_institute/">{{ "/static/svg/instagram.svg" | svgContents | safe }}</a>
+            <a href="https://www.facebook.com/bulevardartandmedia">{{ "/static/svg/facebook.svg" | svgContents | safe }}</a>
+        </div>
+    </div>
+</div>

@@ -52,6 +52,7 @@ table {
     --light-gray: #DCDBDB;
     --medium-gray: #a8a8a8;
     --dark-gray: #787878;
+    --red: #A71E22;
   }
 
 @font-face {
@@ -61,6 +62,11 @@ table {
 
 body{
     background-color: var(--light-gray);
+}
+
+body.base-red{
+  background-color: #fff;
+  color: var(--red);
 }
 
 .with-bg{
@@ -145,6 +151,43 @@ header.active .menu-icon svg *{
 
 header .menu-icon:hover{
     cursor: pointer;
+}
+
+header.header-red{
+    color: var(--red);
+}
+
+header.header-red a svg *{
+    fill: var(--red);
+}
+
+header.header-red .menus ul{
+  display: flex;
+}
+
+header.header-red .menus ul li{
+  margin-right: 60px;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+header.header-red .menus ul li a{
+  color: var(--red);
+  text-decoration: none;
+}
+
+header.header-red .menu-icon{
+    display: none;
+}
+
+header.header-red .lang a{
+  color: var(--red);
+}
+
+header.header-red .lang a.current{
+  border-bottom: 3px solid var(--red);
+  border-radius: 0px 15px 225px 15px/15px 225px 15px 0px;
 }
 
 .main-nav{
@@ -239,6 +282,57 @@ main.home {
     position: relative;
     gap: 20px;
     overflow-y: hidden;
+}
+
+main.main-red.home{
+  padding: 0 30px 30px 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 40% 1fr;
+}
+
+main.main-red.home .info{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main.main-red.home h1{
+  color: var(--red);
+  font-size: 2.3rem;
+  font-family: sans-serif;
+  text-transform: none;
+}
+
+main.main-red.home .events{
+  height: 100%;
+  grid-column: 1/3;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+main.main-red.home .events .event{
+  position: relative;
+  flex-grow: 1;
+}
+
+main.main-red.home .events .event h2{
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+}
+
+main.main-red.home .events .event img{
+  height: calc(100% - 60px);
+  width: 100%;
+  background-color: var(--red);
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 main.home img {

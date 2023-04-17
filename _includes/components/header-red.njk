@@ -1,0 +1,27 @@
+<header class="header-red">
+    <a href="/{{locale}}/">
+        {{ "/static/svg/logo.svg" | svgContents | safe }}
+    </a>
+    <div class="right">
+        <div class="menus">
+            <ul>
+              <li>
+                  <a href="/{{locale}}/whats-on">{{'whatson' | i18n}}</a>
+              </li>
+              <li>
+                  <a href="/{{locale}}/about">{{'about' | i18n}}</a>
+              </li>
+              <li>
+                  <a href="/{{locale}}/location">{{'location' | i18n}}</a>
+              </li>
+          </ul>
+        </div>
+        <div class="lang">
+            <a {% if locale === "en" %} class="current"{% endif %} href="/en/{{subsection}}">EN</a>
+            <a {% if locale === "sq" %} class="current"{% endif %} href="/sq/{{subsection}}">SQ</a>
+        </div>
+        <div class="menu-icon">
+            {{ "/static/svg/hamburger.svg" | svgContents | safe }}
+        </div>
+    </div>
+</header>

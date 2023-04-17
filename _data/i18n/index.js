@@ -1,7 +1,7 @@
 module.exports = {
     about: {
-        'en': 'Who are we?',
-        'sq': 'Kush jemi?'
+        'en': 'About',
+        'sq': 'Rreth nesh'
       },
       whatson: {
         'en': 'What\'s on?',
