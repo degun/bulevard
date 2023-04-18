@@ -192,6 +192,18 @@ header .menu-icon:hover{
     border-radius: 0px 30px 225px 30px/30px 0px 30px 0px;
 }
 
+.main-nav nav li:nth-child(4){
+  border-radius: 0px 15px 225px 15px/15px 0px 15px 0px;
+}
+
+.main-nav nav li:nth-child(5){
+  border-radius: 0px 25px 225px 25px/25px 0px 15px 1px;
+}
+
+.main-nav nav li:nth-child(6){
+  border-radius: 0px 50px 225px 50px/50px 0px 50px 0px;
+}
+
 .main-nav nav li a{
     width: 100%;
     color: var(--light-gray);
@@ -226,6 +238,10 @@ header .menu-icon:hover{
 
 .main-nav .social .icons a svg{
     height: 40px;
+}
+
+.centered {
+  text-align: center;
 }
 
 main.home {
@@ -286,6 +302,12 @@ main.about h1{
 main.center h2{
     font-family: Blv ,sans-serif;
     font-size: 3rem;
+}
+
+main.center h3{
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
 }
 
 main.center p{
@@ -383,6 +405,30 @@ main.location > a svg{
 main.location > a svg *{
     fill: var(--dark-gray);
 }
+
+.carousel {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.carousel .carousel-in-place {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.carousel .carousel-in-place img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel .carousel-full-screen {
+  position: absolute;
+  display: none;
+}
+
 
 @media screen and (max-width: 960px) {
     main.home h1 {
