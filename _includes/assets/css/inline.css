@@ -59,6 +59,11 @@ table {
     src: url("../../_includes/assets/fonts/Blv-Regular-2.ttf");
 }
 
+@font-face {
+  font-family: "Blv";
+  src: url("../../../_includes/assets/fonts/Blv-Regular-2.ttf");
+}
+
 body{
     background-color: var(--light-gray);
 }
@@ -209,7 +214,7 @@ header .menu-icon:hover{
     color: var(--light-gray);
     font-family: Blv, sans-serif;
     font-display: swap;
-    font-size: 5rem;
+    font-size: 4rem;
     text-transform: uppercase;
     text-decoration: none;
 }
