@@ -411,6 +411,19 @@ main.location > a svg *{
     fill: var(--dark-gray);
 }
 
+main.casting .links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+main.casting .links a {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  color: var(--dark-gray);
+  /* text-decoration: none; */
+}
+
 .carousel {
   overflow: hidden;
   width: 100%;
