@@ -10,7 +10,7 @@ subsection: whats-on
 
 
 # Ditaret 2023  <br /> Arkivi si Takim
-  
+
 ## Ekspozita 27 qershor – 20 tetor
 ## Simpozium 27 deri 29 qershor
 Ndiq Online me Zoom [https://shorturl.at/fhN36](https://bulevard.us5.list-manage.com/track/click?u=dcfc074363a6b19f3bfdb0dd6&id=215b21ad7e&e=f3812a03be "https://bulevard.us5.list-manage.com/track/click?u=dcfc074363a6b19f3bfdb0dd6&id=215b21ad7e&e=f3812a03be")  
