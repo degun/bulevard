@@ -334,8 +334,11 @@ main.whats-on h2{
     font-size: 0.9rem;
     color: var(--dark-gray);
     font-family: sans-serif;
-    margin-bottom: 40px;
     margin-top: 10px;
+}
+
+main.whats-on h2 + p {
+  margin-top: 40px;
 }
 
 main.whats-on p.centered{
@@ -344,6 +347,11 @@ main.whats-on p.centered{
 
 main.whats-on p.important{
     font-size: 1.3rem;
+}
+
+main.whats-on strong{
+    color: #666;
+    font-weight: 600;
 }
 
 main.location{
