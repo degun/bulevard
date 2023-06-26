@@ -223,7 +223,7 @@ header .menu-icon:hover{
     width: 100%;
     height: auto;
     padding: 40px 0;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
@@ -443,8 +443,72 @@ main.casting .links a {
 }
 
 .carousel .carousel-full-screen {
+  visibility: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel .carousel-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel .carousel-full-screen.active,
+.carousel .carousel-full-screen.active .carousel-overlay {
+  visibility: visible;
+}
+
+.carousel .carousel-full-screen figure {
   position: absolute;
-  display: none;
+  width: 720px;
+  height: auto;
+  visibility: hidden;
+}
+
+.carousel.active .carousel-full-screen figure.active {
+  visibility: visible;
+}
+
+.carousel .carousel-control-prev{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.carousel .carousel-control-next{
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 100;
+  color: white;
 }
 
 

@@ -24,6 +24,31 @@ document.addEventListener('DOMContentLoaded', function() {
     const controlPrev = carousel.querySelector('.carousel-control-prev');
     const controlNext = carousel.querySelector('.carousel-control-next');
     const items = carousel.querySelectorAll('.carousel-item');
+    const inPlaceItems = carousel.querySelectorAll('.carousel-in-place img');
+
+    inPlaceItems.forEach(function(item) {
+      item.addEventListener('click', function() {
+        let index = -1;
+        inPlaceItems.forEach(function(inPlaceItem, inPlaceIndex) {
+          if (inPlaceItem === item) {
+            index = inPlaceIndex;
+          }
+        });
+        items[index].classList.add('active');
+        carousel.classList.add('active');
+      });
+    });
+
+    carousel.addEventListener('keyup', function(event) {
+      if (event.key === 'ArrowLeft') {
+        moveCarousel(-1);
+      } else if (event.key === 'ArrowRight') {
+        moveCarousel(1);
+      }
+      if(event.key === 'Escape') {
+        carousel.classList.remove('active');
+      }
+    });
 
     controlPrev.addEventListener('click', function() {
       moveCarousel(-1);

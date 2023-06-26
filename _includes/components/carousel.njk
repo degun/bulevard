@@ -8,12 +8,13 @@
     {% endfor %}
   </div>
   <div class="carousel-full-screen">
+    <div class="carousel-overlay"></div>
     {% for slide in slides %}
       <figure class="carousel-item {% if loop.first %}active{% endif %}">
         <img src="{{ slide.src }}" alt="{{ slide.alt }}">
         {% if slide.caption %}
           <figcaption class="carousel-caption">
-            <p>{{ slide.caption }}</p>
+            {{ slide.caption }}
           </figcaption>
         {% endif %}
       </figure>
