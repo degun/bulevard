@@ -330,11 +330,19 @@ main.about h3:nth-last-of-type(3){
     text-align: center;
 }
 
+main.whats-on img {
+    margin-bottom: 40px;
+}
+
 main.whats-on h2{
     font-size: 0.9rem;
     color: var(--dark-gray);
     font-family: sans-serif;
     margin-top: 10px;
+}
+
+main.whats-on p.left-aligned{
+  text-align: left;
 }
 
 main.whats-on h2 + p {

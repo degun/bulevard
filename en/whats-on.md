@@ -7,12 +7,14 @@ permalink: /en/whats-on/index.html
 image: ../../static/img/whats-on/diaries-2023.jpeg
 subsection: whats-on
 ---
+**Diaries 2023**
+**The Archive as Encounter**
 
-# Diaries 2023 <br /> The Archive as Encounter
-  
 ## Exhibition: 27 June to 20 October 2023
 ## Symposium: 27 to 29 June 2023
-Follow Online via Zoom [https://shorturl.at/fhN36](https://bulevard.us5.list-manage.com/track/click?u=dcfc074363a6b19f3bfdb0dd6&id=661bbf3c0d&e=f3812a03be "https://bulevard.us5.list-manage.com/track/click?u=dcfc074363a6b19f3bfdb0dd6&id=661bbf3c0d&e=f3812a03be")  
+<p class="left-aligned">Follow Online via Zoom</p>
+
+[https://shorturl.at/fhN36](https://bulevard.us5.list-manage.com/track/click?u=dcfc074363a6b19f3bfdb0dd6&id=661bbf3c0d&e=f3812a03be "https://bulevard.us5.list-manage.com/track/click?u=dcfc074363a6b19f3bfdb0dd6&id=661bbf3c0d&e=f3812a03be")
   
 Bulevard is pleased to present the second year of Diaries: a quest exploring collective artistic production in Albania, from the 1990s across the first decade of the 2000s, through the lens of Lindart, the first and only association of women artists in Albania.  
   

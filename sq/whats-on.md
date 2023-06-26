@@ -7,15 +7,16 @@ permalink: /sq/whats-on/index.html
 image: ../../static/img/whats-on/diaries-2023.jpeg
 subsection: whats-on
 ---
-
-
-# Ditaret 2023  <br /> Arkivi si Takim
+**Ditaret 2023**
+**Arkivi si Takim**
 
 ## Ekspozita 27 qershor – 20 tetor
 ## Simpozium 27 deri 29 qershor
-Ndiq Online me Zoom [https://shorturl.at/fhN36](https://bulevard.us5.list-manage.com/track/click?u=dcfc074363a6b19f3bfdb0dd6&id=215b21ad7e&e=f3812a03be "https://bulevard.us5.list-manage.com/track/click?u=dcfc074363a6b19f3bfdb0dd6&id=215b21ad7e&e=f3812a03be")  
-  
-  
+<p class="left-aligned">Ndiq Online me Zoom </p>
+
+[https://shorturl.at/fhN36](https://bulevard.us5.list-manage.com/track/click?u=dcfc074363a6b19f3bfdb0dd6&id=215b21ad7e&e=f3812a03be "https://bulevard.us5.list-manage.com/track/click?u=dcfc074363a6b19f3bfdb0dd6&id=215b21ad7e&e=f3812a03be")
+
+
 Bulevard-i ka kënaqësinë të prezantojë vitin e dytë të “Ditarëve”: një projekt kërkimor që eksploron prodhimin kolektiv artistik në Shqipëri, nga vitet 1990 deri në dekadën e parë të viteve 2000, përmes objektivit të Lindart, shoqatës së parë dhe të vetme të grave artiste në Shqipëri.  
   
 Ekspozita e parë “Ditarët” u konceptua në 2022 si fillimi i një procesi dhe jo si përmbyllja e tij. Sot Bulevard-i prezanton “kapitullin” e dytë të Ditarëve duke kombinuar një ekspozitë me një simpozium. Të dy këta kapituj ndërthurin dokumentimin dhe tregimin, ku qasjet e ri-imagjinuara të historisë së artit, praktikës artistike të angazhuar, miqësisë dhe mbështetjes reciproke bëhen të dukshme përtej dhe brenda kufijve politikë dhe socialë.  
